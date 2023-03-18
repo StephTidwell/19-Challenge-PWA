@@ -51,7 +51,11 @@ THEN I should have proper build scripts for a webpack application
 
 [Deployed Link](https://guarded-cliffs-83260.herokuapp.com/)
 
+
+
 <img width="1680" alt="Screen Shot_challenge_19_PWA" src="https://user-images.githubusercontent.com/113862737/226134951-a6ced9d7-cf8e-49e0-84de-48f1ddd1651b.png">
+
+
 
 ### Installation
 Download or clone this repository to use this code on your local system. After installing the required dependencies, browse to the root directory and execute the following command:
