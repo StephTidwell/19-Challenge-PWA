@@ -1,6 +1,9 @@
 # 19-challenge-PWA: Text Editor
+
+
 ## Description
 This is a browser-based text editor. The app will be a single-page app that fulfills the PWA requirements. It will also provide a variety of data persistence strategies as redundancy in case one of the choices is not supported by the browser. The app will also work while you are not connected to the internet.
+
 
 ## User Story
 ```
@@ -48,6 +51,8 @@ THEN I should have proper build scripts for a webpack application
 
 [Deployed Link](https://guarded-cliffs-83260.herokuapp.com/)
 
+<img width="1680" alt="Screen Shot_challenge_19_PWA" src="https://user-images.githubusercontent.com/113862737/226134951-a6ced9d7-cf8e-49e0-84de-48f1ddd1651b.png">
+
 ### Installation
 Download or clone this repository to use this code on your local system. After installing the required dependencies, browse to the root directory and execute the following command:
 ```
@@ -59,9 +64,9 @@ npm i
 ```
 npm start
 ```
-- When you run the command, the server will be launched; navigate to the application's URL type into your browser:  'http//:localhost:3000'.
+- When you run the command, the server will be launched; navigate to the application's URL.
 - Type any text into the editor. Your text will then be saved automatically when you click off of the window. 
-Install this PWA on your devices for offline usage by clicking the install button.
+You can install this PWA on your devices for offline usage.
 
 ### Technologies
 
