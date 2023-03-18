@@ -3,14 +3,16 @@
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
+  
   "scripts": {
-    "start:dev": "",
-    "start": "node server/server.js && node client/client.js", 
-    "server": "server/server.js",
-    "build": "",
-    "install": "",
-    "client": "client/client.js"
+    "start:dev": "concurrently \"cd client && npm run build\" \"cd server && npm run server\" ",
+    "start": "npm run build && cd server && node server.js",
+    "server": "cd server server.js --ignore client",
+    "build": "cd client && npm run build",
+    "install": "cd server && npm i && cd ../client && npm i",
+    "client": "cd client && npm start"
   },
+ 
   "keywords": [],
   "author": "",
   "license": "ISC",
